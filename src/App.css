@@ -1,0 +1,173 @@
+#root {
+  position: relative
+}
+
+@font-face {
+  font-family: Gotham-Bold;
+  src: url(./assets/Gotham_Bold_Font_Family/Gotham-Bold\ 700.otf);
+}
+
+
+header {
+  display: flex;
+  z-index: 10;
+  position: absolute;
+}
+
+.menu {
+  display: flex;
+  width: 80vw;
+  align-items: center;
+  justify-content: end;
+  gap: 40px;
+}
+
+.menu-item {
+  font-family: "Gotham-Bold";
+  line-height: 28px;
+  display: block;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.menu-item.active {
+  background: linear-gradient(90.42deg, #fdf4dc -3%, #f0db8c 40.22%, #b6872c 176.79%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner {
+  top: 0;
+  position: relative;
+}
+
+.intro-menu {
+  display: flex;
+  justify-content: center;
+  background: #da2031;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  opacity: 0.95;
+}
+
+.intro-menu-container {
+  display: flex;
+  width: 60vw;
+  align-items: center;
+}
+
+.intro-menu-item {
+  position: relative;
+  width: 100%;
+  font-family: "Gilroy-Bold.otf";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff !important;
+  -webkit-text-fill-color: inherit;
+  padding: 5px 20px;
+  transition: all 0.3s ease;
+  -webkit-text-fill-color: aliceblue;
+  text-wrap: nowrap;
+}
+
+.line {
+  display: block;
+  width: 150px;
+  height: 4px;
+  background: linear-gradient(132.3deg, #F9EA9E 0%, #B58D46 105.59%);
+}
+
+.company-info {
+  display: flex;
+  justify-content: center;
+  color: #4F4F4F;
+}
+
+.company-info-img {
+  width: 214%;
+}
+
+/* .company-info-img::before {
+  content: "";
+  position: absolute;
+  left: 620px;
+  bottom: -6px;
+  background: #da2031;
+  width: 338px;
+  height: 280px;
+} */
+
+.scale-img {
+  position: relative;
+  width: 100%;
+  padding-top: 67%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.company-info-container {
+  display: flex;
+  align-items: center;
+  width: 60vw;
+  gap: 120px;
+}
+
+.company-info-content {
+  margin-top: 25px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #555555;
+  text-align: justify;
+}
+
+.margin-top-90 {
+  margin-top: 90px;
+}
+
+.history-intro {}
+
+.history-intro-img {
+  width: 100%;
+  height: 505px;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.footer {
+  background-color: #DA2031;
+  width: 100vw;
+  height: 20vh;
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 13px;
+  color: #ffffff;
+  margin-bottom: 43px;
+
+}
+
+.footer-container {
+  width: 66vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
